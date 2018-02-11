@@ -1,0 +1,21 @@
+extends layout
+
+block content
+
+    h1 Edit Notes
+
+        textarea
+
+        button(onclick='Save()') Save Entry
+        script.
+            function Save() {
+                alert("Entry has been saved!");
+            }
+
+
+
+        button(onclick='Delete()') Delete Entry
+        script.
+            function Delete() {
+                alert("Entry has been deleted!");
+            }
